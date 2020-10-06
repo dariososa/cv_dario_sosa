@@ -1,0 +1,604 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+/* Navbar */
+.navbar {
+	background: #1cbbb4;
+}
+/* End of Navbar */
+
+/* About us */
+.aboutus {
+	background: url(../img/1.jpg) center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.aboutus img {
+	width: 15rem;
+}
+
+.aboutus .logogrande {
+	width: 15rem;
+}
+
+#menu-principal li a {
+	font-size: 17px;
+}
+/* End of about us */
+
+/* Yellow section */
+.yellow {
+	background: #f3ce00;
+}
+
+.yellow h1 {
+	/* font-size: 4rem; */
+	color: whitesmoke;
+	margin-top: 100px;
+	font-family: "Paytone One", sans-serif;
+	font-size: clamp(3vh, 8rem, 10vw);
+}
+
+.yellow p {
+	/* font-size: 1.5rem; */
+	color: #525252;
+	font-size: clamp(3vh, 1rem, 10vw);
+}
+
+.bt-read {
+	background: #1cbbb300;
+	color: whitesmoke;
+	font-size: 30px;
+	padding: 0 20px;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+}
+
+.bt-read:hover {
+	background: whitesmoke;
+	border-color: whitesmoke;
+	color: #f3ce00;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+	line-height: 1.5;
+}
+
+/* End of Yellow section */
+
+/* Order section */
+.order {
+	background: url(../img/cookies.png) center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+}
+
+.order p {
+	font-weight: bold;
+	color: whitesmoke;
+	font-family: "Paytone One", sans-serif;
+	font-size: clamp(1vh, 4rem, 10vw);
+}
+
+.bt-order {
+	background: #1cbbb4;
+	color: whitesmoke;
+	font-size: 30px;
+	padding: 0 20px;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+}
+
+.bt-order:hover {
+	background: #f3ce00;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+	line-height: 1.5;
+}
+/* End of order section */
+
+/* bread section */
+
+.bread {
+	background: url(../img/bread3.jpg) center center;
+	background-size: cover;
+	width: 100%;
+}
+
+.bread p {
+	background: rgba(0, 0, 0, 0.575);
+	height: 400px;
+	width: auto;
+	color: whitesmoke;
+	font-size: 2rem;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.bread p:hover {
+	color: #f3ce00;
+	transition: 0.5s;
+}
+
+.chefhat {
+	width: 80px;
+	float: right;
+	padding: 15px;
+}
+/* end of bread section */
+
+/*Recipes section*/
+
+.recipes2 h3 {
+	font-family: "Paytone One", sans-serif;
+	font-size: 5rem;
+	color: #1cbbb4;
+}
+
+.recipes2 h2 {
+	color: #1cbbb4;
+	font-weight: bolder;
+	font-size: 2.5rem;
+}
+
+#p1 {
+	font-size: 2rem;
+}
+
+.recipes2 p {
+	font-size: 1.5rem;
+}
+
+.bt-recipes {
+	background: #1cbbb4;
+	color: whitesmoke;
+	font-size: 30px;
+	padding: 0 20px;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+}
+
+.bt-recipes:hover {
+	background: #f3ce00;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+	line-height: 1.5;
+}
+
+/* end of recipes section */
+
+/* catering section */
+.catering {
+	background: #a61d3d;
+	height: 600px;
+}
+
+.catering .display-3 {
+	font-size: 4rem;
+	color: whitesmoke;
+	margin-top: 50px;
+	font-family: "Paytone One", sans-serif;
+}
+
+.catering p {
+	font-size: 1rem;
+	color: whitesmoke;
+}
+
+.catering .display-3 {
+	font-size: 5rem;
+}
+
+.catering span {
+	color: #f3ce00;
+}
+
+.btn-outline-light {
+	border-color: whitesmoke;
+	color: whitesmoke;
+	font-size: 20px;
+	padding: 10px;
+	font-family: "Paytone One", sans-serif;
+	margin-bottom: 50px;
+}
+
+.btn-outline-light:hover {
+	background: #f3ce00;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	font-family: "Paytone One", sans-serif;
+	line-height: 1.5;
+}
+
+.catering img {
+	transform: translatey(-10%);
+	display: flex;
+	margin: 0 auto;
+}
+
+/* End of catering section */
+
+/* party section */
+
+.party2 {
+	background: url(../img/wood.jpg);
+	background-size: cover;
+	width: 100%;
+	/* height: 1700px; */
+	/* display: flex;
+		justify-content: center;  */
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.party h3 {
+	font-size: clamp(3vh, 4rem, 10vw);
+	font-family: "Paytone One", sans-serif;
+	color: #1cbbb4;
+}
+
+.party p {
+	font-size: clamp(3vh, 1rem, 10vw);
+}
+
+#p1 {
+	font-family: "Paytone One", sans-serif;
+	font-weight: bold;
+	color: #3b3b3b;
+}
+
+.party h2 {
+	color: #1cbbb4;
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.party img {
+	display: block;
+}
+
+/* End of party section */
+
+/* pick section */
+.pick {
+	background: url(../img/cupcakes2.jpg) center center fixed;
+	background-size: cover;
+	width: 100%;
+	/* height: 60vh; */
+	display: flex;
+	justify-content: center;
+}
+
+.pick p {
+	font-weight: bold;
+	color: #1cbbb4;
+	font-family: "Paytone One", sans-serif;
+	font-size: clamp(1vh, 4rem, 10vw);
+}
+
+.bt-pick {
+	background: #1cbbb4;
+	color: whitesmoke;
+	font-size: 30px;
+	padding: 0 20px;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+}
+
+.bt-pick:hover {
+	background: #f3ce00;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+	line-height: 1.5;
+}
+/* End of pick section */
+
+/* services section */
+
+.services {
+	background: url(../img/cel.jpg) center center;
+	background-size: cover;
+	width: 100%;
+}
+
+.services ul {
+	background: rgba(0, 0, 0, 0.575);
+	/* height: 400px; */
+	/* width: auto; */
+	color: whitesmoke;
+	font-size: 40px;
+	/* margin-top: 20px;
+	padding-top: 20px;*/
+	list-style: none;
+}
+
+.services ul li:hover {
+	color: #f3ce00;
+	transition: 0.5s;
+}
+
+.fa-circle {
+	font-size: 1rem;
+	color: #f3ce00;
+}
+
+.services .display-2 {
+	font-family: "Paytone One", sans-serif;
+	font-size: 4rem;
+	color: rgb(56, 56, 56);
+}
+/* end of bread section */
+
+/* catering2 section */
+.catering2 {
+	background: #f3ce00;
+}
+
+.catering2 h1 {
+	/* font-size: 4rem; */
+	color: whitesmoke;
+	margin-top: 100px;
+	font-family: "Paytone One", sans-serif;
+	font-size: clamp(2vh, 6rem, 10vw);
+}
+
+.catering2 p {
+	/* font-size: 1.5rem; */
+	color: #525252;
+	font-size: clamp(2vh, 1rem, 10vw);
+}
+
+.bt-cat2 {
+	background: #1cbbb300;
+	color: whitesmoke;
+	font-size: 30px;
+	padding: 0 20px;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+}
+
+.bt-cat2:hover {
+	background: whitesmoke;
+	border-color: whitesmoke;
+	color: #f3ce00;
+	border: 3px solid;
+	font-family: "Paytone One", sans-serif;
+	line-height: 1.5;
+}
+
+/* End of Yellow section */
+
+/* products section */
+
+.products2 {
+	background: url(../img/wood.jpg);
+	background-size: cover;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.products h3 {
+	font-size: clamp(3vh, 4rem, 10vw);
+	font-family: "Paytone One", sans-serif;
+	color: #1cbbb4;
+}
+
+.products p {
+	font-size: clamp(3vh, 1rem, 10vw);
+}
+
+#p1 {
+	font-family: "Paytone One", sans-serif;
+	font-weight: bold;
+	color: #3b3b3b;
+}
+
+.products h2 {
+	color: #1cbbb4;
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.products img {
+	display: inline-block;
+	justify-content: center;
+}
+
+/* End of products section */
+
+.cards {
+	display: flex;
+	justify-content: center;
+}
+
+.card-img {
+	margin-top: 70px;
+}
+
+.card {
+	background: rgba(245, 245, 245, 0.664);
+	/* color: #1cbbb4; */
+	border: none;
+}
+
+.card-body p {
+	font-size: 1.5rem;
+}
+
+.card-body h5 {
+	font-size: 2rem;
+	font-family: "Paytone One", sans-serif;
+}
+
+/*Offers section*/
+
+.offers {
+	width: 80%;
+	padding-top: 120px;
+}
+
+.offers h1 {
+	color: #3b3b3b;
+	font-weight: bolder;
+	font-size: 3rem;
+	font-family: "Paytone One", sans-serif;
+}
+
+.offers2 .col-12 {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.offers .txt {
+	font-size: 2rem;
+	color: #1cbbb4;
+}
+
+.offers2 span {
+	color: #1cbbb4;
+	float: left;
+	font-family: "Paytone One", sans-serif;
+}
+
+.delivery {
+	background: url(../img/delivery.jpg) center center fixed;
+	background-size: cover;
+	width: 100%;
+	/* height: 60vh; */
+	display: flex;
+	justify-content: center;
+	background-position-y: 20rem;
+}
+
+.delivery p {
+	font-weight: bold;
+	color: #1cbbb4;
+	font-family: "Paytone One", sans-serif;
+	font-size: clamp(1vh, 4rem, 10vw);
+	background: rgba(0, 0, 0, 0.678);
+}
+
+/*end of offers section*/
+
+/*Contact section*/
+.contact h1 {
+	color: #3b3b3b;
+	font-family: "Paytone One", sans-serif;
+	font-size: 4rem;
+}
+
+.contact p {
+	font-size: 1.5rem;
+}
+
+.contact span i {
+	color: #1cbbb4;
+}
+.contact {
+	height: 800px;
+	margin-top: 150px;
+}
+
+.col {
+	margin: 20px;
+	width: 600px;
+
+	max-width: 500px;
+}
+
+.col input {
+	padding: 20px;
+}
+
+/*end of contact section*/
+
+/*Footer*/
+.foot {
+	background: url(../img/bread3.jpg) center center;
+	background-size: cover;
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.foot a i:hover {
+	color: #1cbbb4;
+}
+
+.foot i {
+	color: whitesmoke;
+	padding: 30px;
+	font-size: 50px;
+}
+
+/*end of footer*/
+
+.adress {
+	background: #181818;
+	color: #1cbbb4;
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+}
+
+.map {
+	/* position: absolute; */
+	height: 100%;
+	width: 100%;
+
+	/* margin-left: 180px; */
+	margin-top: 20px;
+
+	touch-action: pan-x pan-y;
+	display: flex;
+	justify-content: center;
+}
+
+/* Media query */
+@media (max-width: 800px) {
+	.recipes h2 {
+		text-align: center;
+	}
+
+	.foot i {
+		color: whitesmoke;
+		padding-left: 40px;
+		/* margin-left: 50px; */
+		font-size: 40px;
+	}
+	.aboutus {
+		background: url(../img/11.png) center center fixed;
+		background-size: cover;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+	}
+	.contact {
+		height: 1300px;
+		margin-top: 70px;
+	}
+}

@@ -1,0 +1,267 @@
+/*------------Colors---------------
+
+#0C1B51 main color
+#303642 secondary color
+
+------------Colors---------------*/
+
+------------Tools--------------- ------------Tools--------------- 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #303642;
+  display: flex;
+  text-align: center;
+  z-index: 1;
+  height: 100%;
+  position: fixed;
+}
+
+.navbar ul li {
+  margin-top: 30px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.navbar ul li a:hover {
+  text-decoration: none;
+  color: rgb(90, 87, 245);
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color 1s linear;
+  transition: color 0.3s linear;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.background {
+  background: url(../img/background_r.jpg) center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.p2 {
+  margin-top: 150px;
+  margin-right: 160px;
+  color: #0c1b51;
+}
+
+span {
+  font-size: 60px;
+}
+
+.btn {
+  background: #0c1b51;
+  border-color: black;
+  width: 200px;
+  margin-right: 220px;
+  -webkit-transition: font-size 1s ease;
+  transition: font-size 1s ease;
+}
+
+.btn:hover {
+  background: rgb(90, 87, 245), 0, 0);
+  color: white;
+  border-color: white;
+  font-size: 20px;
+  
+}
+
+/*about section*/
+.about {
+  background: rgb(204, 203, 203);
+  /* height: 900px; */
+}
+
+h3 {
+  color: black;
+  margin: 25px 0;
+  border: 1px solid #0c1b51;
+
+  padding: 6px;
+}
+
+.title {
+  display: inline-block;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic1 {
+  /* background: red; */
+  /* width: min-content; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pic {
+  height: 350px;
+  width: 300px;
+  /* color: transparent; */
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.pic img {
+  margin-bottom: 25px;
+}
+
+.span2 {
+  font-size: 1.5rem;
+  color: #0c1b51;
+}
+
+.objetives {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #0c1b51;
+}
+/*end of about section*/
+
+/* Skills section */
+
+.title2 {
+  display: inline-block;
+}
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-5 {
+  color: black;
+  font-size: 2rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo1 {
+  margin: 20px;
+}
+.logo2 {
+  margin-top: 30px;
+}
+/* end of skills section */
+
+/* experience section */
+
+.experience {
+  background: rgb(204, 203, 203);
+}
+
+/* end of experience section */
+
+/* portfolio section */
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.port {
+  margin-bottom: 20px;
+}
+/* end of portfolio section */
+
+/*  contact section */
+.contact {
+  background: rgb(204, 203, 203);
+  height: 600px;
+}
+
+.con-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  margin-bottom: 15px;
+  width: 500px;
+  text-align: center;
+}
+/* end of contact section */
+
+footer {
+  background: #303642;
+  height: 60px;
+  /* position: fixed; */
+}
+
+.fot {
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sn1 {
+  margin-left: 60px;
+  justify-content: center;
+  flex-direction: row;
+  
+  
+}
+
+.sn img {
+  margin-left: 20px;
+  
+}
+
+.sn img:hover{
+  
+}
+
+.gm {
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+
+  .fot{
+    display: none;
+  }
+
+  .sn1 {
+    margin-left: 60px;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+  /* .pic1 {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  } */
+}
