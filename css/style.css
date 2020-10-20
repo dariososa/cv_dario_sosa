@@ -5,7 +5,8 @@
 
 ------------Colors---------------*/
 
-------------Tools--------------- ------------Tools--------------- 
+------------Tools--------------- 
+------------Tools--------------- 
 
 * {
   margin: 0;
@@ -56,6 +57,7 @@
   margin-top: 150px;
   margin-right: 160px;
   color: #0c1b51;
+  font-family: 'Montserrat', sans-serif;
 }
 
 span {
@@ -94,6 +96,8 @@ h3 {
 
 .title {
   display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .center {
@@ -112,7 +116,7 @@ h3 {
 
 .pic {
   /* height: 350px; */
-  width: 330px;
+  /* width: 330px; */
   /* color: transparent; */
   /* border: 1px solid black; */
   margin-left: 10px;
@@ -130,12 +134,32 @@ h3 {
 .span2 {
   font-size: 1.3rem;
   color: #0c1b51;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .objetives {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   margin-top: 10px;
   color: #0c1b51;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hobbies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies img{
+  width: 80px;
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+
+.hob{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  
 }
 /*end of about section*/
 
@@ -147,6 +171,10 @@ h3 {
 
 .title2 {
   display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  border-bottom: 1px solid black;
+  
 }
 
 .center2 {
