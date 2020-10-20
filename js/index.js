@@ -25,4 +25,12 @@ window.sr = ScrollReveal();
         origin: 'bottom',
         distance: '-100px',
     });
-   
+
+    sr.reveal('img', {
+        duration: 3000,
+        origin: 'bottom',
+        distance: '-100px',
+    });
+
+
+    
