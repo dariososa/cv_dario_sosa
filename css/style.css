@@ -81,6 +81,16 @@ span {
   
 }
 
+.cvpdf:hover {
+  text-decoration: none;
+  color: white
+}
+
+.cvpdf {
+  
+  color: white
+}
+
 /*about section*/
 .about {
   background: #d9d9d9;
